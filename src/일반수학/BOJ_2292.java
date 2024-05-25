@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/2292
+package 일반수학;// https://www.acmicpc.net/problem/2292
 // 벌집
 import java.io.*;
 public class BOJ_2292 {
