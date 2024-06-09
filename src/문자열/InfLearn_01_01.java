@@ -11,11 +11,11 @@ public class InfLearn_01_01 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String str = br.readLine().toUpperCase();
-        char c = Character.toUpperCase(br.readLine().charAt(0));
+        char ch = Character.toUpperCase(br.readLine().charAt(0));
         int count = 0;
 
         for (char x : str.toCharArray()) {
-            if (x == c) {
+            if (x == ch) {
                 count++;
             }
         }
