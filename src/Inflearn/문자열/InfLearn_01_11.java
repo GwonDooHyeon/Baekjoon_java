@@ -1,11 +1,11 @@
-package 문자열;
+package Inflearn.문자열;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 // https://cote.inflearn.com/contest/10/problem/01-11
-// 문자열 압축
+// Inflearn.문자열 압축
 public class InfLearn_01_11 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

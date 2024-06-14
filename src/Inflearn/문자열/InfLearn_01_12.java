@@ -1,4 +1,4 @@
-package 문자열;
+package Inflearn.문자열;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class InfLearn_01_12 {
         int n = Integer.parseInt(br.readLine()); // 4
         String str = br.readLine(); // #****###**#####**#####**##**
         String tmp = "";
-        
+
         for (int i = 0; i < n; i++) {
             tmp = str.substring(0, 7).replace("#", "1").replace("*", "0");
             int answer = Integer.parseInt(tmp, 2);
