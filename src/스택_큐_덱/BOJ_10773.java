@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-// https://www.acmicpc.net/problem/28278
+// https://www.acmicpc.net/problem/10773
 // 제로
 public class BOJ_10773 {
     public static void main(String[] args) throws IOException {
